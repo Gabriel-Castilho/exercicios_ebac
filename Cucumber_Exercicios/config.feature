@@ -13,13 +13,13 @@ Quando eu escolher um produto
 E Clicar no produto
 Então os campos de cor, tamanho, quantidade devem estar marcados como obrigatórios
 
-Scenario: Limite no carrinho
+Cenário: Limite no carrinho
 Quando eu terminar a escolha de um produto
 E clicar em ir para pagamento
 Então o sistema deve permitir somente a compra de 10 produtos 
 
 
-Scenario: Limpar seleção
+Cenário: Limpar seleção
 Quando eu escolher os atributos do produto
 E clicar no botão Limpar
 Então o sistema deve retirar toda a seleção de atributo realizada

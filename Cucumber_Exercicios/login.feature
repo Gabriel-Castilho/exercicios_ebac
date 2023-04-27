@@ -16,7 +16,7 @@
             Esquema do Cenário: Dados de autenticação inválido
             Quando eu digitar o usuário <usuario>
             E a senha <senha>
-            Então o sistema deve exibir uma mensagem de "Usuário ou senha inválidos"
+            Então o sistema deve exibir a <mensagem>
 
             Exemplos:
             | usuario                      | senha          | mensagem                   |
